@@ -107,7 +107,7 @@ include('config.php');
 
 if (isset($_POST['submit4'])) {
 
-    mysqli_query($link, "INSERT INTO exam_category VALUES('','$_POST[category]','$_POST[exam_time]')") or die(mysqli_error($link));
+    mysqli_query($link, "INSERT INTO exam_category VALUES(NULL,'$_POST[category]','$_POST[exam_time]')") or die(mysqli_error($link));
 
 ?>
     <script type="text/javascript">
