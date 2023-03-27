@@ -50,7 +50,7 @@ if (isset($_POST['submit1'])) {
     } else {
     ?>
         <script type="text/javascript">
-            window.location = 'survey.php';
+            window.location = 'questions.php';
         </script>
 
 <?php

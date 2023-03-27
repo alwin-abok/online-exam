@@ -1,12 +1,11 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Online Exam</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
         /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
         .row.content {
@@ -26,17 +25,18 @@
             }
         }
     </style>
+    <title>OnlineExam</title>
 </head>
 
 <body>
     <nav class="navbar navbar-inverse bg-info">
         <div class="container-fluid">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="admin/questions.php">Questions</a></li>
-                <li><a href="admin/dit.php">Edit</a></li>
-                <li><a href="admin/index.php">Logout</a></li>
-                <li><a href="admin/category.php.php">Category</a></li>
-                <li><a href="admin/demo.php">Home</a></li>
+                <li class="active"><a href="questions.php">Questions</a></li>
+                <li><a href="Edit.php">Edit</a></li>
+                <li><a href="index.php">Logout</a></li>
+                <li><a href="category.php.php">Category</a></li>
+                <li><a href="demo.php">Home</a></li>
             </ul>
         </div>
     </nav>

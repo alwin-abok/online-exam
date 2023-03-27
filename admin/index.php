@@ -1,6 +1,6 @@
 <?php
-include('config.php');
-include('./templates/head.php');
+include('../config.php');
+include('../templates/head.php');
 ?>
 <h4>Login to access Admin Panel</h4>
 <form action="" name="form3" method="POST" style="margin-top: 20px;">
@@ -20,7 +20,7 @@ include('./templates/head.php');
 </form>
 
 </body>
-<?php include('./templates/foot.php') ?>
+<?php include('../templates/foot.php') ?>
 
 </html>
 
@@ -48,7 +48,7 @@ if (isset($_POST['submit3'])) {
     } else {
     ?>
         <script type="text/javascript">
-            window.location = 'admin.php';
+            window.location = 'demo.php';
         </script>
 
 <?php
